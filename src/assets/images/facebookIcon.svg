@@ -1,0 +1,10 @@
+<svg id="facebook-letter-logo" xmlns="http://www.w3.org/2000/svg" width="6.067" height="13" viewBox="0 0 6.067 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Facebook" class="cls-1" d="M116.007,2.519v1.79H114.7V6.5h1.311V13H118.7V6.5h1.808s.169-1.049.251-2.2h-2.049V2.8a.636.636,0,0,1,.584-.525h1.468V0h-2C115.941,0,116.007,2.192,116.007,2.519Z" transform="translate(-114.696 -0.001)"/>
+</svg>

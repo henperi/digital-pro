@@ -1,0 +1,17 @@
+@mixin coolBlue {
+  background: linear-gradient(to bottom right, #0b42f5 0%, #34e3ff 100%);
+  box-shadow: 0px 10px 50px rgba(49, 56, 78, 0.1);
+  color: #fff;
+}
+
+.bg {
+  &--primary {
+    background-color: #0b42f5;
+  }
+  &--grey {
+    background-color: #ecf0fc;
+  }
+  &--coolBlue {
+    @include coolBlue;
+  }
+}
