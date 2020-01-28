@@ -38,7 +38,7 @@ export function LandingPage() {
       <div className="hero">
         <nav className="contain nav row row__mainAxis--spaceBetween">
           <div className="nav--left">
-            <h3 className="underline">Henperi.io</h3>
+            <h3 className="underline">DigiPro</h3>
           </div>
           <div className="nav--right row row__mainAxis--spaceBetween">
             <span>About</span>
@@ -50,16 +50,16 @@ export function LandingPage() {
         <img alt="" src={heroBg} className="hero__bg" />
 
         <div className="contain hero__content col col-4 col-sm-11 col__mainAxis--center">
-          <h1 className="">Hi, I&rsquo;m Henperi</h1>
+          <h1 className="">Digital Future Designs</h1>
           <span>
-            I&rsquo;m a Full Stack Developer with a keen eye for User Interface and User Experience
-            Design.
+            The future of digital design is here. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore.
           </span>
           <p>
-            I love solving complex algorithmic problems just as much as I love designing clean,
-            simple and minimalistic User Interfaces.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            invidunt ut labore.
           </p>
-          <Button className="">Hire Me</Button>
+          <Button className="">Get Started</Button>
         </div>
       </div>
       <section className="col col__mainAxis--center">
