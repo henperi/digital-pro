@@ -59,11 +59,11 @@ export function LandingPage() {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             invidunt ut labore.
           </p>
-          <Button className="">Get Started</Button>
+          <Button className="margin__top--10">Get Started</Button>
         </div>
       </div>
-      <section className="col col__mainAxis--center">
-        <div className="contain textAlign--center">
+      <section className="contain col col__mainAxis--center">
+        <div className="textAlign--center margin__vertical--40">
           <h3>Services</h3>
           <h2>Our Agency Providing</h2>
           <span>
@@ -71,7 +71,7 @@ export function LandingPage() {
             invidunt ut labore.
           </span>
         </div>
-        <div className="contain row">
+        <div className="row margin__bottom--100">
           <Card className="col bg--coolBlue col-sm-12 col-4">
             <object data={bulb}>
               <img alt="" src={bulb} />
@@ -103,13 +103,14 @@ export function LandingPage() {
             </span>
           </Card>
         </div>
-        <div className="contain row margin__top--60">
+        <div className="row margin__top--60">
           <div className="col-5 col-sm-12">
             <object width="100%" data={analysis}>
               <img alt="" src={analysis} />
             </object>
           </div>
-          <div className="col-7 col-sm-12 col col__mainAxis--center service--padding">
+          <div className="col-1" />
+          <div className="col-6 col-sm-12 col col__mainAxis--center service--padding">
             <h2>Business opportunities Analysis </h2>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -121,13 +122,14 @@ export function LandingPage() {
             </p>
           </div>
         </div>
-        <div className="contain row row--reversed margin__top--60">
+        <div className="row row--reversed margin__top--60">
           <div className="col-5 col-sm-12">
             <object width="100%" data={clients}>
               <img alt="" src={clients} />
             </object>
           </div>
-          <div className="col-7 col-sm-12 col col__mainAxis--center service--padding">
+          <div className="col-1" />
+          <div className="col-6 col-sm-12 col col__mainAxis--center service--padding">
             <h2>Business opportunities Analysis </h2>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -140,25 +142,25 @@ export function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="section">
-        <div className="contain col textAlign--center">
+      <section className="contain section margin__top--100 margin__bottom--100">
+        <div className="col textAlign--center margin__vertical--40">
           <h3>Our Case Studies</h3>
           <span>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             invidunt ut labore.
           </span>
         </div>
-        <div className="contain row">
+        <div className="row">
           <Card className="card card__padding--5 col-4 col-sm-12">
             <object width="100%" data={student}>
               <img width="100%" alt="" src={student} />
             </object>
             <div className="padding__all--10">
               <h3>Business Solution Process</h3>
-              <span>
+              <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
                 Eirmod tempor invint ut labore
-              </span>
+              </p>
             </div>
           </Card>
           <Card className="card card__padding--5 col-4 col-sm-12">
@@ -167,10 +169,10 @@ export function LandingPage() {
             </object>
             <div className="padding__all--10">
               <h3>Marketing Stratagy</h3>
-              <span>
+              <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
                 Eirmod tempor invint ut labore
-              </span>
+              </p>
             </div>
           </Card>
           <Card className="card card__padding--5 col-4 col-sm-12">
@@ -179,10 +181,10 @@ export function LandingPage() {
             </object>
             <div className="padding__all--10">
               <h3>How We Research Market?</h3>
-              <span>
+              <p>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
                 Eirmod tempor invint ut labore
-              </span>
+              </p>
             </div>
           </Card>
         </div>
@@ -194,10 +196,10 @@ export function LandingPage() {
         <object className="testimonial--bg" data={testimonialBg}>
           <img className="testimonial--bg" alt="" src={testimonialBg} />
         </object>
-        <div className="padding__all--40 col col__mainAxis--center col-4 col-sm-12">
-          <h4 className="underline">Some Awesome Word</h4>
+        <div className="col col__mainAxis--center col-4 col-sm-12">
+          <h4 className="contain underline">Some Awesome Word</h4>
         </div>
-        <div className="col-8 col-sm-12">
+        <div className="col-8 col-sm-12 padding__vertical--40">
           <div className="row scrollable">
             <Card className="col scrollable--card relative">
               <object className="quotes" data={quotes}>
@@ -323,14 +325,15 @@ export function LandingPage() {
         </div>
       </section>
       <section className="contain contact row row__mainAxis--center margin__top--100">
-        <div className="col-5 col-sm-12 contact--content col Xcol__mainAxis--center">
-          <h3 className="underline">Let&rsquo;s Talk About Everything</h3>
-          <span>
+        <div className="col-5 col-sm-12 col">
+          <h3 className="underline margin__top--40">Let&rsquo;s Talk About Everything</h3>
+          <p>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             invidunt ut labore et dolore magna aliquyam erat, diam voluptua. At vero eos
-          </span>
+          </p>
         </div>
-        <div className="col-5 col-sm-12 card form">
+        <div className="col-1" />
+        <div className="col-6 col-sm-12 card form">
           <input className="input" placeholder="Email" />
           <input className="input" placeholder="Subject" />
           <textarea className="textArea" placeholder="Message" />
@@ -360,7 +363,7 @@ export function LandingPage() {
           </div>
         </div>
       </section>
-      <section className="footer contain">
+      <section className="footer contain padding__vertical--40">
         <div className="row">
           <div className="col-3 col-sm-12 col">
             <h2>DIGISOL</h2>

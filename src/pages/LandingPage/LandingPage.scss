@@ -1,7 +1,6 @@
 @import '../../styles/typography.scss', '../../styles/colors.scss', '../../styles/variables.scss';
 
 .main {
-  // background-color: coral;
   width: 100vw;
   margin: auto;
   position: relative;
@@ -45,8 +44,7 @@
 
   .nav {
     z-index: 10;
-    height: 50px;
-    // background-color: coral;
+    height: 80px;
     display: flex;
     align-items: center;
 
@@ -66,7 +64,7 @@
   .service {
     margin: 40px auto;
     &--padding {
-      padding: 0 100px;
+      // padding: 0 100px;
       @media screen and (max-width: $sm) {
         padding: 0;
       }
@@ -89,7 +87,6 @@
       &:first-child {
         margin-left: 0;
       }
-      // padding: 25px;
     }
 
     .img--bg {
@@ -119,7 +116,6 @@
   .testimonial {
     flex-direction: row-reverse;
     position: relative;
-    // z-index: 1;
 
     &--bg {
       position: absolute;
