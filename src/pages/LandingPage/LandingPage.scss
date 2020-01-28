@@ -31,6 +31,13 @@
         width: 190%;
         height: 100vh;
       }
+
+      @media screen and (max-width: $md) {
+        top: -28%;
+        right: -65%;
+        width: 180%;
+        height: 80vh;
+      }
     }
 
     &__content {
@@ -50,6 +57,10 @@
 
     &--left {
       flex: 8;
+
+      @media screen and (min-width: $sm) and (max-width: $md) {
+        flex: 6;
+      }
     }
 
     &--right {
@@ -57,6 +68,10 @@
       flex: 4;
       @media screen and (max-width: $sm) {
         display: none;
+      }
+
+      @media screen and (min-width: $sm) and (max-width: $md) {
+        flex: 6;
       }
     }
   }

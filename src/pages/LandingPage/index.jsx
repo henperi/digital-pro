@@ -49,7 +49,7 @@ export function LandingPage() {
         </nav>
         <img alt="" src={heroBg} className="hero__bg" />
 
-        <div className="contain hero__content col col-4 col-sm-11 col__mainAxis--center">
+        <div className="contain hero__content col col-4 col-md-7 col-sm-11 col__mainAxis--center">
           <h1 className="">Digital Future Designs</h1>
           <span>
             The future of digital design is here. Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -71,8 +71,8 @@ export function LandingPage() {
             invidunt ut labore.
           </span>
         </div>
-        <div className="row margin__bottom--100">
-          <Card className="col bg--coolBlue col-sm-12 col-4">
+        <div className="row row__mainAxis--center margin__bottom--100">
+          <Card className="col bg--coolBlue col-sm-12 col-md-12 col-4">
             <object data={bulb}>
               <img alt="" src={bulb} />
             </object>
@@ -82,7 +82,7 @@ export function LandingPage() {
               invidunt aliquyam erat, sed diam
             </span>
           </Card>
-          <Card className="col col-sm-12 col-4">
+          <Card className="col col-sm-12 col-md-12 col-4">
             <object data={search}>
               <img alt="" src={search} />
             </object>
@@ -92,7 +92,7 @@ export function LandingPage() {
               invidunt aliquyam erat, sed diam
             </span>
           </Card>
-          <Card className="col col-sm-12 col-4">
+          <Card className="col col-sm-12 col-md-12 col-4">
             <object data={doc}>
               <img alt="" src={doc} />
             </object>
@@ -151,7 +151,7 @@ export function LandingPage() {
           </span>
         </div>
         <div className="row">
-          <Card className="card card__padding--5 col-4 col-sm-12">
+          <Card className="card card__padding--5 col-4 col-md-6 col-sm-12">
             <object width="100%" data={student}>
               <img width="100%" alt="" src={student} />
             </object>
@@ -163,7 +163,7 @@ export function LandingPage() {
               </p>
             </div>
           </Card>
-          <Card className="card card__padding--5 col-4 col-sm-12">
+          <Card className="card card__padding--5 col-4 col-md-6 col-sm-12">
             <object width="100%" data={dinner}>
               <img width="100%" alt="" src={dinner} />
             </object>
@@ -175,7 +175,7 @@ export function LandingPage() {
               </p>
             </div>
           </Card>
-          <Card className="card card__padding--5 col-4 col-sm-12">
+          <Card className="card card__padding--5 col-4 col-md-6 col-sm-12">
             <object width="100%" data={womanBooks}>
               <img width="100%" alt="" src={womanBooks} />
             </object>
@@ -347,7 +347,7 @@ export function LandingPage() {
         <object className="topRightBg" data={subscribeTopRightBg}>
           <img className="topRightBg" alt="" src={subscribeTopRightBg} />
         </object>
-        <div className="contain col col-6 col-sm-12 textAlign--center">
+        <div className="contain col col-6 col-md-12 col-sm-12 textAlign--center">
           <h3>Subscribe to our nesleter</h3>
           <span>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
@@ -365,12 +365,12 @@ export function LandingPage() {
       </section>
       <section className="footer contain padding__vertical--40">
         <div className="row">
-          <div className="col-3 col-sm-12 col">
+          <div className="col-3 col-md-6 col-sm-12 col">
             <h2>DIGISOL</h2>
             <span>digisol.co@mail.com</span>
             <span>087-552-485-165</span>
           </div>
-          <div className="col-3 col-sm-12 col">
+          <div className="col-3 col-md-6 col-sm-12 col">
             <h4>Services</h4>
             <span>Digital Marketing</span>
             <span>Business Analysis</span>
@@ -378,13 +378,13 @@ export function LandingPage() {
             <span>Wordpress</span>
             <span>Social Activation</span>
           </div>
-          <div className="col-3 col-sm-12 col">
+          <div className="col-3 col-md-6 col-sm-12 col">
             <h4>About Us</h4>
             <span>Who We Are</span>
             <span>Founders</span>
             <span>History</span>
           </div>
-          <div className="col-3 col-sm-12 col">
+          <div className="col-3 col-md-6 col-sm-12 col">
             <h4>Our Address</h4>
             <span>59/B Jonson Road Ave, New York, USA</span>
             <span>Email: support@digi.com</span>
