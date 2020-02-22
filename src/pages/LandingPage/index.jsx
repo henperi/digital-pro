@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 // Components
 import { Button } from '../../UiKit/Button';
@@ -33,18 +33,43 @@ import twitterIcon from '../../assets/images/twitterIcon.svg';
  * @returns {JSX.Element} Element
  */
 export function LandingPage() {
+  const mobileLinksRef = useRef(null);
+
+  const handleBurgerMenuClick = () => {
+    mobileLinksRef.current.classList.toggle('menu-links--mobile');
+  };
+
   return (
     <div className="main">
       <div className="hero">
-        <nav className="contain nav row row__mainAxis--spaceBetween">
+        <nav className="contain nav row row__mainAxis--spaceBetween row__crossAxis--center">
           <div className="nav--left">
             <h3 className="underline">DigiPro</h3>
           </div>
-          <div className="nav--right row row__mainAxis--spaceBetween">
-            <span>About</span>
-            <span>Service</span>
-            <span>Blog</span>
-            <span>Contact</span>
+          <div className="nav--right">
+            <div
+              role="button"
+              tabIndex={0}
+              onClick={() => handleBurgerMenuClick()}
+              onKeyPress={() => handleBurgerMenuClick()}
+            >
+              <span className="burger-menu" />
+            </div>
+            <div ref={mobileLinksRef} className="menu-links">
+              <div
+                role="button"
+                tabIndex={0}
+                onClick={() => handleBurgerMenuClick()}
+                onKeyPress={() => handleBurgerMenuClick()}
+              >
+                <span className="burger-menu--close" />
+              </div>
+
+              <span>About</span>
+              <span>Service</span>
+              <span>Blog</span>
+              <span>Contact</span>
+            </div>
           </div>
         </nav>
         <img alt="" src={heroBg} className="hero__bg" />
@@ -355,7 +380,7 @@ export function LandingPage() {
           </span>
           <div className="row margin__top--20">
             <div className="col-9 col-sm-12">
-              <input className="input input--rounded" placeholder="Subject" />
+              <input className="input input--rounded margin__bottom--10" placeholder="Subject" />
             </div>
             <div className="col-3 col-sm-12">
               <Button>Subscribe</Button>
